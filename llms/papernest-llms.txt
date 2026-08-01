@@ -1,0 +1,24 @@
+# Papernest
+
+> Papernest is a French technology company (founded 2015, Paris) that provides a digital platform for managing, switching, and cancelling household subscriptions — energy, telecom/internet, mobile, and home insurance — through a single interface, with a focus on people who are moving home. It operates in France, Spain, Italy, and the UK, is free to end users, and earns commission from supplier partners. Papernest does not publish a public developer API; it operates a private partner integration program (partner sandbox portal) and an official GitHub organization with only archived open-source utilities.
+
+## Company
+- Website: https://www.papernest.com/
+- Login (app): https://app.papernest.com/home/
+- Sign up (app): https://app.papernest.com/welcome/
+- Support / Help Center: https://support.papernest.com/
+- Blog: https://www.papernest.com/blog-papernest/
+- Careers: https://careers.papernest.com/
+- Suppliers / partners: https://www.papernest.com/fournisseurs/
+- Terms (mentions légales): https://www.papernest.com/mentions-legales/
+- Privacy policy: https://www.papernest.com/politique-de-confidentialite/
+
+## Developer / Code
+- GitHub organization: https://github.com/papernest (archived repos only: aio_sf_streaming, forks of tiny-slider and mydatepicker — no API specs)
+- Partner sandbox portal (private, no public docs): https://partners-sandbox.app.papernest.com/home/1
+
+## APIs
+- No public API. Papernest exposes no documented REST/OpenAPI, GraphQL, or AsyncAPI surface. Integration is via a private B2B partner program.
+
+## Notes
+- This profile is maintained by the API Evangelist network (https://apievangelist.com). Papernest was surfaced as a Partech portfolio company.

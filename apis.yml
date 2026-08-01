@@ -1,8 +1,24 @@
 aid: papernest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/papernest.png
 name: Papernest
-description: 'Papernest is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Papernest is a French technology company, founded in 2015 and headquartered in Paris, that
+  provides a digital platform for managing, switching, and cancelling household subscriptions — energy,
+  telecom and internet, mobile plans, and home insurance — through a single interface. Built around the
+  moment people move home, the service is free to end users and monetized through commissions from
+  supplier partners across France, Spain, Italy, and the UK, having helped more than 3 million customers.
+  Papernest does not publish a public developer API; it runs a private B2B partner integration program
+  and maintains an official GitHub organization of archived open-source utilities.'
 url: https://raw.githubusercontent.com/api-evangelist/papernest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Financial Services
+- Subscription Management
+- Energy
+- Telecom
+- Insurance
+- Home Services
+- Consumer
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.papernest.com/
+- type: SignUp
+  url: https://app.papernest.com/welcome/
+- type: Login
+  url: https://app.papernest.com/home/
+- type: Support
+  url: https://support.papernest.com/
+- type: Blog
+  url: https://www.papernest.com/blog-papernest/
+- type: TermsOfService
+  url: https://www.papernest.com/mentions-legales/
+- type: PrivacyPolicy
+  url: https://www.papernest.com/politique-de-confidentialite/
+- type: GitHubOrganization
+  url: https://github.com/papernest
+- type: DomainSecurity
+  url: security/papernest-domain-security.yml
+- type: LLMsTxt
+  url: llms/papernest-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
