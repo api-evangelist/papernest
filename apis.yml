@@ -42,10 +42,10 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Subscription Management
 - Energy
-- Telecom
+- Telecommunications
 - Insurance
 - Home Services
 - Consumer
@@ -60,6 +60,7 @@ tags_raw:
 - Home Services
 - Consumer
 - France
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
